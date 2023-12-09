@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!------------------------FAVICON------------------------>
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+  <!-------------------------REMIXICONS--------------------->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+  <!---------------------------CSS--------------------------->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>Arlandon's portfolio</title>
+</head>
+
+<body>
+  <!------------------------------HEADER----------------->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        <span class="nav__logo-circle"> A </span>
+        <span class="nav__logo-name"> Arlandon </span>
+      </a>
+      <div class="nav__menu" id="nav-menu">
+        <span class="nav__title">Menu</span>
+        <h3 class="nav__name">Arlandon</h3>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link" active-link>Accueil</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">A propos</a>
+          </li>
+          <li class="nav__item">
+            <a href="#projects" class="nav__link">Projets</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link nav__link-button">Contactez-moi</a>
+          </li>
+          <a download target="_blank" href="assets/cv/Curricilum Vitae.pdf" class="btn">Telecharger mon CV</a>
+        </ul>
+
+
+        <!------close boutton---->
+        <div class="nav__close" id="nav-close">
+          <i class="ri-close-line"></i>
+        </div>
+      </div>
+      <div class="nav__buttons">
+        <!----theme button-->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+        <!----toggle boutton-->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-4-line"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-----------------------------MAIN------------------------------>
+  <main class="main">
+    <!----------------------home------------------------------>
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <h1 class="home__name">
+          Arlandon Andria
+        </h1>
+        <div class="home__perfil">
+          <div class="home__image">
+            <img src="assets/images/home.jpg" alt="image" class="home__img">
+            <div class="home__shadow"></div>
+            <img src="assets/images/curved-arrow.svg" alt="" class="home__arrow">
+            <img src="assets/images/random-lines.svg" alt="" class="home__line">
+            <div class="geometric-box"></div>
+          </div>
+          <div class="home__social">
+            <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank" class="home__social-link">
+              <i class="ri-linkedin-box-line"></i>
+            </a>
+            <a href="https://www.github.com/" target="_blank" class="home__social-link">
+              <i class="ri-github-line"></i>
+            </a>
+          </div>
+
+        </div>
+        <div class="home__info">
+          <p class="home__description">
+            <b>Développeur Fullstack</b>, ayant une bonne connaissance dans le domaine du développement web et UX/UI
+            design, j'ai offert la meilleur résultat dans la qualité de mon travail. Motivé par un désir d'acquerir
+            davantage des connaissances et d'experiences dans le domaine, dans le but de toujours fournir les meilleurs
+            solutions possibles.
+          </p>
+
+          <a href="#about" class="home__scroll">
+            <div class="home__scroll-box">
+              <i class="ri-arrow-down-s-line"></i>
+            </div>
+
+            <span class="home__scroll-text">Scrollez en bas</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------A PROPOS------------------>
+    <section class="about section" id="about">
+      <div class="about__container container grid">
+        <h2 class="section__title-1">
+          <span> A propos.</span>
+        </h2>
+        <div class="about__perfil">
+          <div class="about__image">
+            <img src="assets/images/profil.jpg" alt="image" class="about__img">
+            <div class="about__shadow"></div>
+            <div class="geometric-box"></div>
+            <img src="assets/images/random-lines.svg" alt="image" class="about__line">
+            <div class="about__box"></div>
+          </div>
+        </div>
+        <div class="about__info">
+          <p class="about__description">
+            Le métier de Développeur Web étant ma passion première, j'aimerais être responsable de la vie
+            d'un site web au sein
+            d'une entreprise informatique ou d'une entreprise qui s'articule dans le domaine de l'informatique, en vue
+            d'accroître mes compétences pour mes objectifs futurs.
+            Mes bonnes connaissances des langages de programmation de site web
+            , des outils bureautiques et du système de Gestion de Base de Données me permettent de développer des sites
+            web dynamiques. Face à la réalité actuelle du marché de l'emploi, je mets en avant les
+            différents atouts développés tout au
+            long d'un travail personnel à savoir d'abord la capacité à travailler seul, sous pression et orienté
+            résultats, ensuite
+            la forte motivation pour l'apprentissage de nouveaux langages et systèmes, qui font de moi un informaticien
+            prêt à
+            exercer dans un milieu professionnel, de plus ce site web (portfolio) en est une preuve.
+            Voici chère entreprise, les différentes valeurs qui fondent mon humble personnalité. Je certifie sincères et
+            exactes
+            toutes les informations ci-dessus déclarées et reste entièrement disponible pour un entretien
+            d'approfondissement.</p>
+          </p>
+
+          <li class="about__description">
+            <b>MES COMPETENCES :</b> HTML, CSS, PHP, Symfony, Javascript, ReactJS, React NATIVE, Angular, VueJS,
+            Node/Nest/NextJS, Mysql, Postgres, Mongodb, Git&Github, Sass, Ionic, Laravel, Figma, AdobeXd.
+          </li>
+
+          <div class="about__buttons">
+            <a href="#contact" class="button">
+              <i class="ri-send-plane-line"></i>Contactez-moi
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank" class="button__ghost">
+              <i class="ri-linkedin-box-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-----------------------------------SERVICES----------->
+    <section class="services section" id="services">
+      <h2 class="section__title-2">
+        <span> Services.</span>
+      </h2>
+      <div class="services__container container grid">
+        <article class="services__card">
+          <div class="services__border"></div>
+          <div class="services__content">
+            <div class="services__icon">
+              <div class="services__box"></div>
+              <i class="ri-layout-4-line"></i>
+            </div>
+
+            <h2 class="services__title"> UX/UI Design</h2>
+            <p class="services__description">
+              Les méthodes les plus courantes pour la conception de sites web qui fonctionnent bien sur le bureau est la
+              <b> Responsive</b> et <b>Adaptive design</b>.
+            </p>
+          </div>
+        </article>
+        <article class="services__card">
+          <div class="services__border"></div>
+          <div class="services__content">
+            <div class="services__icon">
+              <div class="services__box"></div>
+              <i class="ri-code-box-line"></i>
+            </div>
+
+            <h2 class="services__title">Développement Web</h2>
+            <p class="services__description">
+              La conception web se réfère à la conception des sites web qui sont affichés sur l'internet, il se réfère
+              généralement aux aspects de l'experience utilisateur du <b>développement de site web</b>.
+            </p>
+          </div>
+        </article>
+        <article class="services__card">
+          <div class="services__border"></div>
+          <div class="services__content">
+            <div class="services__icon">
+              <div class="services__box"></div>
+              <i class="ri-smartphone-line"></i>
+            </div>
+
+            <h2 class="services__title">Application Mobile</h2>
+            <p class="services__description">
+              En tant que développeur web, j'aimerais coder et faire des projets sur <b>Mobile</b>, j'aimerais
+              travailler de
+              temps en temps, de réaliser des divers projets pour que je puisse augmenter mes competences dans le
+              domaine du développement web.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!--------------------------------PROJECTS----------->
+    <section class="projects section" id="projects">
+      <h2 class="section__title-1">
+        <span> Projets.</span>
+      </h2>
+      <div class="projects__container container grid">
+        <article class="projects__card">
+          <div class="projects__image">
+            <img src="assets/images/project1.jpg" alt="image" class="projects__img">
+            <a href="#" class="projects__button button">
+              <i class="ri-arrow-right-up-fill"></i>
+            </a>
+          </div>
+          <div class="projects__content">
+            <h3 class="projects__subtitle">Site web</h3>
+            <h2 class="projects__title">G-Mat</h2>
+            <p class="projects__description">
+              <b>G-MAT</b> est une application web pour la gestion des matériels et équipements utilisés au sein du
+              Ministère
+              des Affaires Etrangères Anosy. Ce projet est réalisé en utilisant le langage de programmation <b>PHP</b>,
+              le
+              framework <b>SYMFONY</b> et la base de donnée <b>MYSQL</b> sur le côté serveur.
+            </p>
+          </div>
+          <div class="projects__buttons">
+            <a href="https://github.com/" target="_blank" class="projects__link">
+              <i class="ri-github-fill"></i> Voir
+            </a>
+            <a href="https://Gmat.netlify.com/" target="_blank" class="projects__link">
+              <i class=" ri-dribbble-line"></i> Voir
+            </a>
+          </div>
+        </article>
+        <article class="projects__card">
+          <div class="projects__image">
+            <img src="assets/images/project2.png" alt="image" class="projects__img">
+            <a href="#" class="projects__button button">
+              <i class="ri-arrow-right-up-fill"></i>
+            </a>
+          </div>
+          <div class="projects__content">
+            <h3 class="projects__subtitle">Site web</h3>
+            <h2 class="projects__title">SAFI</h2>
+            <p class="projects__description">
+              Système d'Administration Fiscale Integré, ce projet est réalisé en collaboration avec la Diréction Géneral
+              des Impôts Anosy, projet de l'Etat
+              Malagasy en vue de faciliter les Contribuables pour payer leur impôts en ligne. Ce projet est effectué en
+              utilisant les environnements techniques suivantes: <b>Angular</b> côté Front-end, <b>NestJS</b> côté
+              Back-end et <b>PostgresSQL</b> sur le côté serveur.
+            </p>
+          </div>
+          <div class="projects__buttons">
+            <a href="https://github.com/" target="_blank" class="projects__link">
+              <i class="ri-github-fill"></i> Voir
+            </a>
+            <a href="https://dgi.impôts.mg/" target="_blank" class="projects__link">
+              <i class="ri-dribbble-line"></i> Voir
+            </a>
+          </div>
+        </article>
+
+        <article class="projects__card">
+          <div class="projects__image">
+            <img src="assets/images/project3.jpg" alt="image" class="projects__img">
+            <a href="#" class="projects__button button">
+              <i class="ri-arrow-right-up-fill"></i>
+            </a>
+          </div>
+          <div class="projects__content">
+            <h3 class="projects__subtitle">Site Web</h3>
+            <h2 class="projects__title">Botika-Confection</h2>
+            <p class="projects__description">
+              Ce projet consiste a effectué une plateforme de vente en ligne des confections, l'objectif du site est de
+              commander, de faire des achats en ligne et de payer avec des platefornes de mobile money qui existent à
+              Madagascar. J'ai utilisé <b>React</b> et <b>NodeJS</b> pour créer se site, et <b>MongoDB </b> pour le côté
+              serveur.
+            </p>
+          </div>
+          <div class="projects__buttons">
+            <a href="https://github.com/" target="_blank" class="projects__link">
+              <i class="ri-github-fill"></i> Voir
+            </a>
+            <a href="https://confec.netlify.app/" target="_blank" class="projects__link">
+              <i class="ri-dribbble-line"></i> Voir
+            </a>
+          </div>
+        </article>
+
+        <article class="projects__card">
+          <div class="projects__image">
+            <img src="assets/images/project4.jpg" alt="image" class="projects__img">
+            <a href="#" class="projects__button button">
+              <i class="ri-arrow-right-up-fill"></i>
+            </a>
+          </div>
+          <div class="projects__content">
+            <h3 class="projects__subtitle">Site Web</h3>
+            <h2 class="projects__title">E-lèves</h2>
+            <p class="projects__description">
+              Projet de gestion des élèves du CNTEMAD, géstion des notes des étudiants, recherche par nom et filière.
+              L'environnements
+              techniques utilisés sont: <b>Laravel</b> pour le front end, <b>PHP</b> sur le back end et
+              <b>Mysql</b> au
+              niveau du
+              serveur.
+            </p>
+          </div>
+          <div class="projects__buttons">
+            <a href="https://github.com/" target="_blank" class="projects__link">
+              <i class="ri-github-fill"></i> Voir
+            </a>
+            <a href="https://Eleves.netlify.com/" target="_blank" class="projects__link">
+              <i class="ri-dribbble-line"></i> Voir
+            </a>
+          </div>
+        </article>
+
+        <article class="projects__card">
+          <div class="projects__image">
+            <img src="assets/images/project5.png" alt="image" class="projects__img">
+            <a href="#" class="projects__button button">
+              <i class="ri-arrow-right-up-fill"></i>
+            </a>
+          </div>
+          <div class="projects__content">
+            <h3 class="projects__subtitle">Site Web</h3>
+            <h2 class="projects__title">My PORTFOLIO</h2>
+            <p class="projects__description">
+              Présentation formelle de mes compétences dans le domaine du développement web et mobile. Les
+              environnements techniques utilisés sont: <b>HTML</b>, <b>CSS</b> et <b>Javascript</b>.
+            </p>
+          </div>
+          <div class="projects__buttons">
+            <a href="https://github.com/" target="_blank" class="projects__link">
+              <i class="ri-github-fill"></i> Voir
+            </a>
+            <a href="https://arlandon.netlify.app/" target="_blank" class="projects__link">
+              <i class="ri-dribbble-line"></i> Voir
+            </a>
+          </div>
+        </article>
+
+        <article class="projects__card">
+          <div class="projects__image">
+            <img src="assets/images/project6.png" alt="image" class="projects__img">
+            <a href="#" class="projects__button button">
+              <i class="ri-arrow-right-up-fill"></i>
+            </a>
+          </div>
+          <div class="projects__content">
+            <h3 class="projects__subtitle">Site Web</h3>
+            <h2 class="projects__title">Chat App</h2>
+            <p class="projects__description">
+              C'est une application pour se communiquer, de partager et d'envoyer des messages à une personne,
+              possibilité de faire une appel video ou envoie d'un message vocale (même fonctionnalité que facebook).
+              J'ai utilisée le framework
+              <b>React</b> pour le côté front end et <b>NodeJS</b> pour le back-end et serveur, ainsi que la base de
+              donnée
+              <b>Postgres</b>.
+            </p>
+          </div>
+          <div class="projects__buttons">
+            <a href="https://github.com/" target="_blank" class="projects__link">
+              <i class="ri-github-fill"></i> Voir
+            </a>
+            <a href="https://MyChat.netlify.app/" target="_blank" class="projects__link">
+              <i class="ri-dribbble-line"></i> Voir
+            </a>
+          </div>
+        </article>
+
+        <article class="projects__card">
+          <div class="projects__image">
+            <img src="assets/images/project7.jpg" alt="image" class="projects__img">
+            <a href="#" class="projects__button button">
+              <i class="ri-arrow-right-up-fill"></i>
+            </a>
+          </div>
+          <div class="projects__content">
+            <h3 class="projects__subtitle">Site Web</h3>
+            <h2 class="projects__title">SVG Store</h2>
+            <p class="projects__description">
+              Mini application web pour stocker des icones et svg pour bien utilisée lors de toute création de site
+              web. <b>React</b>, <b>NodeJs</b> et <b>MongoDB</b> sont les environnements techniques que j'ai utilisés
+              pour cette application web.
+            </p>
+          </div>
+          <div class="projects__buttons">
+            <a href="https://github.com/" target="_blank" class="projects__link">
+              <i class="ri-github-fill"></i> Voir
+            </a>
+            <a href="https://MySvgStore.netlify.app/" target="_blank" class="projects__link">
+              <i class="ri-dribbble-line"></i> Voir
+            </a>
+          </div>
+        </article>
+        <article class="projects__card">
+          <div class="projects__image">
+            <img src="assets/images/project8.jpg" alt="image" class="projects__img">
+            <a href="#" class="projects__button button">
+              <i class="ri-arrow-right-up-fill"></i>
+            </a>
+          </div>
+          <div class="projects__content">
+            <h3 class="projects__subtitle">Site Web </h3>
+            <h2 class="projects__title">CAFETARIA</h2>
+            <p class="projects__description">
+              Site d'information aux personnes qui boit du café, de montrer à eux les bienfaits et les inconvenients du
+              café. Site vitrine utilisant les technologies suivantes: <b>Angular</b> comme côté Front-end,
+              <B>NodeJS</B>
+              sur le back-end.
+            </p>
+          </div>
+          <div class="projects__buttons">
+            <a href="https://github.com/" target="_blank" class="projects__link">
+              <i class="ri-github-fill"></i> Voir
+            </a>
+            <a href="https://cafetaria.netlify.app" target="_blank" class="projects__link">
+              <i class="ri-dribbble-line"></i> Voir
+            </a>
+          </div>
+        </article>
+        <article class="projects__card">
+          <div class="projects__image">
+            <img src="assets/images/project9.jpg" alt="image" class="projects__img">
+            <a href="#" class="projects__button button">
+              <i class="ri-arrow-right-up-fill"></i>
+            </a>
+          </div>
+          <div class="projects__content">
+            <h3 class="projects__subtitle">Site Web </h3>
+            <h2 class="projects__title">Solar NET</h2>
+            <p class="projects__description">
+              Le projet consiste à vendre des équipements solaires, utilisé pour les distributeurs et importateurs
+              d'équipements solaires. Ce projet permettre aux utilisateurs de naviguer facilement dans les catalogues
+              des
+              produits, de
+              suivre leur commande et de contacter le service clientèle en cas de besoin. Les environnements
+              techniques utilisés sont : <b>VueJS</b> au niveau du Front-end, <b>NestJS</b> côté Back-end et
+              <b>PostgresSQL</b> au niveau du serveur.
+            </p>
+          </div>
+          <div class="projects__buttons">
+            <a href="https://github.com/" target="_blank" class="projects__link">
+              <i class="ri-github-fill"></i> Voir
+            </a>
+            <a href="https://SolarNet.netlify.app/" target="_blank" class="projects__link">
+              <i class="ri-dribbble-line"></i> Voir
+            </a>
+          </div>
+        </article>
+        <article class="projects__card">
+          <div class="projects__image">
+            <img src="assets/images/project10.png" alt="image" class="projects__img">
+            <a href="#" class="projects__button button">
+              <i class="ri-arrow-right-up-fill"></i>
+            </a>
+          </div>
+          <div class="projects__content">
+            <h3 class="projects__subtitle">Site Web </h3>
+            <h2 class="projects__title">I-Voyage</h2>
+            <p class="projects__description">
+              Ce site est destiné pour les personnes qui ont cherhcés un endroit idéale pour voyager et de faire
+              des vacances. Ce site propose aux voyageurs des endroits ou plages les plus visités à Madagascar, de
+              trouver
+              une destination agréable pour voyager. Les
+              environnements techniques utilisés sont: <b>ReactJS</b> pour le Front-end, <b>NestJS</b> pour le back-end
+              et <b>Mongodb</b> sur la base de donnée.
+            </p>
+          </div>
+          <div class="projects__buttons">
+            <a href="https://github.com/" target="_blank" class="projects__link">
+              <i class="ri-github-fill"></i> Voir
+            </a>
+            <a href="https://MyTravel.netlify.app/" target="_blank" class="projects__link">
+              <i class="ri-dribbble-line"></i> Voir
+            </a>
+          </div>
+        </article>
+        <article class="projects__card">
+          <div class="projects__image">
+            <img src="assets/images/project11.png" alt="image" class="projects__img">
+            <a href="#" class="projects__button button">
+              <i class="ri-arrow-right-up-fill"></i>
+            </a>
+          </div>
+          <div class="projects__content">
+            <h3 class="projects__subtitle">Site Web (projet en cours)</h3>
+            <h2 class="projects__title">My Project Guide</h2>
+            <p class="projects__description">
+              C'est une plateforme de gesiton de projet, la planification du projet est une étape cruciale pour la
+              reussite de tout projet, y compris une
+              application web de gestion de projet. Cette application web permet aux développeur de faciliter et de
+              suivre leur tâches. Quelques environnements techniques utilisés : <b>Python</b> et <b>Postgres</b>.
+            </p>
+          </div>
+          <div class="projects__buttons">
+            <a href="https://github.com/" target="_blank" class="projects__link">
+              <i class="ri-github-fill"></i> Voir
+            </a>
+            <a href="https://MyProjectGuide.netlify.com/" target="_blank" class="projects__link">
+              <i class="ri-dribbble-line"></i> Voir
+            </a>
+          </div>
+        </article>
+        <article class="projects__card">
+          <div class="projects__image">
+            <img src="assets/images/project12.png" alt="image" class="projects__img">
+            <a href="#" class="projects__button button">
+              <i class="ri-arrow-right-up-fill"></i>
+            </a>
+          </div>
+          <div class="projects__content">
+            <h3 class="projects__subtitle">Site Web (projet en cours)</h3>
+            <h2 class="projects__title">Hotel Management</h2>
+            <p class="projects__description">
+              Ce projet est utilisé pour les personnes qui ont besoin de réserver un hôtel en ville, ce projet facilite
+              la recherche d'une hôtel pour s'installer. Les environnements techniques utilisés sont: <b>Angular</b>
+              côté Front-end, <b>NodeJs</b> sur le Serveur et <b>PostgresSQL</b> sur la gestion de base de donnée.
+            </p>
+          </div>
+          <div class="projects__buttons">
+            <a href="https://github.com/" target="_blank" class="projects__link">
+              <i class="ri-github-fill"></i> Voir
+            </a>
+            <a href="https://HotelManagement.netlify.com/" target="_blank" class="projects__link">
+              <i class="ri-dribbble-line"></i> Voir
+            </a>
+          </div>
+        </article>
+        <article class="projects__card">
+          <div class="projects__image">
+            <img src="assets/images/project13.png" alt="image" class="projects__img">
+            <a href="#" class="projects__button button">
+              <i class="ri-arrow-right-up-fill"></i>
+            </a>
+          </div>
+          <div class="projects__content">
+            <h3 class="projects__subtitle">Site Web (projet en cours)</h3>
+            <h2 class="projects__title">Mr Car</h2>
+            <p class="projects__description">
+              Site pour toute travaux de location de voiture. Les environnements techniques utilisés sont: <b>VueJs</b>
+              côté Front-end, <b>NestJs</b> sur le Serveur et <b>PostgresSQL</b> sur la gestion de base de donnée.
+
+            </p>
+          </div>
+          <div class="projects__buttons">
+            <a href="https://github.com/" target="_blank" class="projects__link">
+              <i class="ri-github-fill"></i> Voir
+            </a>
+            <a href="https://MrCar.netlify.com/" target="_blank" class="projects__link">
+              <i class="ri-dribbble-line"></i> Voir
+            </a>
+          </div>
+        </article>
+        <article class="projects__card">
+          <div class="projects__image">
+            <img src="assets/images/project14.png" alt="image" class="projects__img">
+            <a href="#" class="projects__button button">
+              <i class="ri-arrow-right-up-fill"></i>
+            </a>
+          </div>
+          <div class="projects__content">
+            <h3 class="projects__subtitle">Site Web (projet en cours)</h3>
+            <h2 class="projects__title">My Gallery Store</h2>
+            <p class="projects__description">
+              Mini application web pour stocker ou sauvegarder vos photos en ligne.Les environnements techniques
+              utilisés sont: <b>ReactJS</b>
+              côté Front-end, <b>NodeJS</b> sur le Serveur et <b>MongoDb</b> sur la gestion de base de donnée.
+            </p>
+          </div>
+          <div class="projects__buttons">
+            <a href="https://github.com/" target="_blank" class="projects__link">
+              <i class="ri-github-fill"></i> Voir
+            </a>
+            <a href="https://MyGalerryStore.com/" target="_blank" class="projects__link">
+              <i class="ri-dribbble-line"></i> Voir
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!----------------------------CONTACT----------->
+    <section class="contact section" id="contact">
+      <div class="contact__container grid">
+        <div class="contact__data">
+          <h2 class="section__title-2">
+            <span>Contactez-moi</span>
+          </h2>
+          <p class="contact__description-1">
+            Je suis toujours à votre service et disponible tout de suite. N'hésitez pas à me contacter et puis vous
+            pouvez m'envoyer votre adresse email et vos message en completant les formulaires ci-dessus.
+            <center><b>Merci de votre patience!</b></center>
+          </p>
+          <p class="contact__description-2">
+
+          </p>
+          <div class="geometric-box"></div>
+        </div>
+        <div class="contact__mail">
+          <h2 class="contact__title">Envoyer un message</h2>
+          <form action="" class="contact__form" id="contact-form">
+            <div class="contact__group">
+              <div class="contact__box">
+                <input type="text" name="user_name" class="contact__input" id="name" required
+                  placeholder="Nom et Prénoms">
+                <label for="name" class="contact__label">Nom et Prénoms</label>
+              </div>
+
+              <div class="contact__box">
+                <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Email">
+                <label for="email" class="contact__label">Adresse Email</label>
+              </div>
+            </div>
+
+            <div class="contact__box">
+              <input type="text" name="user_subject" class="contact__input" id="subject" required placeholder="Sujet">
+              <label for="subject" class="contact__label">Sujet</label>
+            </div>
+
+            <div class="contact__box contact__area">
+              <textarea name="user_message" id="message" class="contact__input" required
+                placeholder="Votre message"></textarea>
+              <label for="message" class="contact__label">Message</label>
+            </div>
+
+            <p class="contact__message" id="contact-message"></p>
+            <button type="submit" class="contact__button button">
+              <i class="ri-send-plane-line"></i>Envoyer le message
+            </button>
+          </form>
+        </div>
+        <div class="contact__social">
+          <img src="assets/images/curved-arrow.svg" alt="" class="contact__social-arrow">
+          <div class="contact__social-data">
+            <div>
+              <p class="contact__social-description-1">
+
+              </p>
+              <p class="contact__social-description-2">
+                Ecris moi sur les réseau sociaux
+              </p>
+            </div>
+            <div class="contact__social-links">
+              <a href="https://www.facebook.com/" target="_blank" class="contact__social-link">
+                <i class="ri-facebook-circle-line"></i>
+              </a>
+              <a href="https://www.instagram.com/" target="_blank" class="contact__social-link">
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a href="https://www.linkedin.com/" target="_blank" class="contact__social-link">
+                <i class="ri-linkedin-box-line"></i>
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!---------------------------------FOOTER-------------------->
+  <footer class="footer">
+    <div class="footer__container container grid">
+      <ul class="footer__links">
+        <li>
+          <a href="#about" class="footer__link">A propos</a>
+        </li>
+
+        <li>
+          <a href="#services" class="footer__link">Services</a>
+        </li>
+
+        <li>
+          <a href="#projects" class="footer__link">Projets</a>
+        </li>
+      </ul>
+      <span class="footer_copy">
+        &#169; Copyright by
+        <a href="">Arlandon Andria</a>
+      </span>
+    </div>
+  </footer>
+  <!--------------------------------SCROLL UP-------------------->
+
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-s-line"></i>
+  </a>
+
+  <!--------------------------------SCROLL REVEAL----------------->
+  <script src="assets/js/scrollreveal.min.js"></script>
+
+  <!----------------------------------EMAIL JS------------------>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+  <!----------------------------------MAIN JS--------------->
+  <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
